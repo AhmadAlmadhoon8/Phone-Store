@@ -1,0 +1,85 @@
+.resize-fram{
+padding: 0 110px 20px;
+}
+.resize-fram .TextAbout{
+    text-align: center;
+    margin: 30px auto 50px;
+    width: 30%;
+}
+
+.resize-fram h2{
+    margin-bottom: 20px;
+}
+.grid-users{
+    margin: 30px auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(450px , 1fr));
+    gap: 30px;
+}
+.grid-users img{
+    width: 50%;
+    height: 200px;
+}
+.grid-users > div{
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width:767px){
+    .resize-fram{
+        padding: 0 20px;
+    }
+    .grid-users > div{
+        flex-direction: column;
+    }
+    .grid-users img{
+        width: 100%;
+        height: 200px;
+    }
+    .grid-users .textuser{
+        margin: 0 auto;
+    
+    }
+}
+
+.grid-users .textuser{
+    width: 45%;
+
+}
+.grid-users .textuser h3,footer h3{
+    color: blue;
+}
+.grid-users .textuser p:first-of-type{
+    color: rgb(250,0,0,0.5);
+    margin: 2px 0 12px;
+}
+.contImage{
+    width: 100%;
+    height: 300px;
+    margin: 10px 0 30px;
+}
+footer div:first-child{
+    display: flex;
+    justify-content: space-between;
+}
+footer img{
+    width: 50%;
+    height: 200px;
+}
+footer .textfoot{
+    width: 46%;
+}
+@media (max-width:767px){
+    footer div:first-child{
+        flex-direction: column;
+    }
+    footer img{
+        width: 100%;
+    }
+    footer .textfoot{
+        margin: 20px 0;
+        width: 90%;
+        text-align: center;
+    }
+
+}

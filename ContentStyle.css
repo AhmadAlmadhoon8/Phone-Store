@@ -1,0 +1,55 @@
+.textContent, .textcheck{
+    text-align: center;
+    width: 450px;
+    margin: 30px auto;
+}
+.textContent h3 , .textcheck h2{ 
+    margin-bottom: 20px;
+}
+.form{
+    width: 520px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+}
+.form1{
+    position: relative;
+}
+.form1 input[type="submit"]{
+position: absolute;
+right: 0;
+bottom: 0;
+width: 80px;
+background-color: red;
+}
+#input,textarea{
+width: 312px;
+margin-bottom: 30px;
+border: none;
+border-bottom: 1px solid black ;
+}
+.textForm p:nth-child(2) , address{
+ margin-top: 35px;
+}
+.textForm p:first-child{
+    color: green;
+    font-size: 20px;
+}
+.Check{
+    width: 450px;
+    position: relative;
+    left: 50%;
+    transform: translate(-40%);
+}
+.Check label{
+    border: 1px solid #ddd7d7;
+    padding: 3px;
+    display: inline-block;
+    margin: 10px;
+}
+.Check input{
+    margin-left: 80px;
+}
+.Check label:hover{
+    color: blue;
+}
